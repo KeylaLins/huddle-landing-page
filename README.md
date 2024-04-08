@@ -6,11 +6,13 @@ Desenvolver a landing page a partir dos designs fornecidos.
 ## Soluções realizadas
 
 Desktop
+
 <img src="./design/animacao-desktop.gif"> 
 
 ---
 
 Mobile
+
 <img src="./design/animacao-mobile.gif"> 
 
 

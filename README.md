@@ -9,6 +9,7 @@ Desktop
 <img src="./design/animacao-desktop.gif"> 
 
 ---
+
 Mobile
 <img src="./design/animacao-mobile.gif"> 
 

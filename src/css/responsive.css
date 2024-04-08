@@ -1,0 +1,74 @@
+@media (max-width: 1200px){
+  .container .image img {
+    width: 100%;
+  }
+}
+
+@media(max-width:900px){
+  .container{
+    grid-gap: 30px;
+    padding: 20px;
+  }
+  .container .informacoes{
+    padding: 0;
+  }
+  .container .informacoes h2 {
+    font-size: 3rem;
+    padding: 0px;
+  }
+  .container .informacoes p {
+    padding: 15px 0;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 725px) {
+  body{
+    background: var(--primaria) url("../images/bg-mobile.svg") no-repeat;
+    background-size: cover;
+  }
+  
+  .header {
+    padding: 30px 35px;
+  }
+  .header img {
+    height: 30px;
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+    padding: 25px 35px;
+  }
+  .container .image img {
+    width: 100%;
+  }
+  .container .informacoes {
+    text-align: center;
+    padding: 0;
+  }
+  .container .informacoes h2 {
+    font-size: 2.3rem;
+    padding: 0px;
+  }
+  .container .informacoes p {
+    padding: 15px 0;
+    font-size: 1.4rem;
+  }
+
+  .container .informacoes .botao-registro {
+    padding: 10px 70px;
+    font-size: 1.2rem;
+    margin: 15px;
+  }
+
+  .social {
+    justify-content: center;
+    gap: 10px;
+  }
+  .social a{
+    padding: 2px 8px;
+  }
+  .social .fab {
+    font-size: 12px;
+  }
+}

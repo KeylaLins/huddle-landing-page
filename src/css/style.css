@@ -1,0 +1,75 @@
+html{
+  font-size: 62.5%;
+}
+body{
+  height: 100vh;
+  background: var(--primaria) url("../images/bg-desktop.svg") no-repeat top;
+  background-size: cover;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+.header{
+  padding: 50px 65px;
+}
+.header img{
+  height: 50px;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 25px 65px 0 65px;
+  grid-gap: 50px;
+}
+
+.container .image img{
+  width: 660px;
+}
+
+.container .informacoes{
+  padding-top: 40px;
+  color: #fff;
+}
+.container .informacoes h2{
+  font-family: "Poppins",sans-serif;
+  font-size: 3.6rem;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
+.container .informacoes p{
+  padding: 20px 0;
+  line-height: 1.6;
+  letter-spacing: 0.3px;
+}
+.container .informacoes .botao-registro{
+  display: inline-block;
+  background-color: #fff;
+  color: var(--primaria);
+  padding: 15px 60px;
+  border-radius: 50px;
+  font-weight: 600;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.container .informacoes .botao-registro:hover{
+  background-color: var(--detalhes);
+  color: #fff;
+}
+
+.social{
+  display: flex;
+  justify-content: right;
+  padding: 15px 75px;
+  gap: 15px;
+}
+.social a{
+  color: #fff;
+  padding: 5px 10px;
+  border: solid 1px #fff;
+  border-radius: 50%;
+}
+.social a:hover{
+  color: var(--detalhes);
+  border-color: var(--detalhes);
+}

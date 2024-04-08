@@ -10,7 +10,7 @@ Desktop
 
 ---
 Mobile
-<img src="./design/animacao-desktop.gif"> 
+<img src="./design/animacao-mobile.gif"> 
 
 
 ## Tecnologias utilizadas

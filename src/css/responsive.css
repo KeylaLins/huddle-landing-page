@@ -25,6 +25,7 @@
 @media (max-width: 725px) {
   body{
     background: var(--primaria) url("../images/bg-mobile.svg") no-repeat;
+    background-size: 100%;
   }
   
   .header {

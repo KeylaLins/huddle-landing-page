@@ -10,7 +10,6 @@ body{
   font-size: 1.6rem;
   display: flex;
   flex-direction: column;
-  align-content: center;
   justify-content: center;
 }
 
@@ -22,7 +21,6 @@ body{
 }
 
 .container{
-  max-width: 1440px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 25px 65px 0 65px;

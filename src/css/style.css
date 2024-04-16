@@ -3,11 +3,13 @@ html{
 }
 body{
   height: 100vh;
-  background: var(--primaria) url("../images/bg-desktop.svg") no-repeat top;
-  background-size: cover;
+  background: var(--primaria) url("../images/bg-desktop.svg") no-repeat right top;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 1.6rem;
+  display: grid;
+  justify-content: center;
+  align-content: center;
 }
 
 .header{
@@ -21,7 +23,8 @@ body{
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 25px 65px 0 65px;
-  grid-gap: 50px;
+  gap: 50px;
+  max-width: 1440px;
 }
 
 .container .image img{
@@ -70,6 +73,10 @@ body{
   padding: 5px 10px;
   border: solid 1px #fff;
   border-radius: 50%;
+}
+.social a .fab.fa-facebook-f{
+  color: #fff;
+  padding: 5px 3px;
 }
 .social a:hover{
   color: var(--detalhes);
